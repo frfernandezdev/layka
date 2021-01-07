@@ -1,0 +1,2 @@
+add Range decorator, for get range of bytes and another methods.
+

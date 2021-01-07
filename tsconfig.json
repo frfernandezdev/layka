@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",                       
+    "module": "commonjs",                  
+    "outDir": "build",                     
+    "strict": true,
+    "moduleResolution": "node",         
+    "esModuleInterop": true,
+    "sourceMap": true,               
+    "experimentalDecorators": true,        
+    "emitDecoratorMetadata": true
+  },        
+  "compileOnSave": true,
+  "include": [
+    "src/**/*.ts",
+	"demo/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
